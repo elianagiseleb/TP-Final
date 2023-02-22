@@ -1,7 +1,8 @@
 import streamlit as st
+import seaborn
 
 
-titanic = sns.load_dataset('titanic')
+titanic = seaborn.load_dataset('titanic')
 
 st.write(titanic)
 
