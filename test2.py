@@ -1,7 +1,6 @@
 import streamlit as st
 import seaborn
 
-
 titanic = seaborn.load_dataset('titanic')
 
 st.write(titanic)
